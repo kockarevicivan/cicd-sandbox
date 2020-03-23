@@ -17,4 +17,6 @@ app.get('/add', (req, res) => {
     );
 });
 
+console.log('test');
+
 app.listen(port, () => console.log(`App listening on http://localhost:${port}`))
