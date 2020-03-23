@@ -1,0 +1,17 @@
+{
+  "name": "cicd-sandbox",
+  "version": "1.0.0",
+  "description": "Demo project for CI/CD.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests.js"
+  },
+  "author": "Ivan Kockarevic",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.1.1"
+  }
+}
