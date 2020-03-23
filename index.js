@@ -4,7 +4,7 @@ const functions = require('./functions');
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.get('/', (req, res) => res.send('Hello world!'));
+app.get('/', (req, res) => res.send('Hello Vega!'));
 
 app.get('/add', (req, res) => {
     const first = +req.query.first;
